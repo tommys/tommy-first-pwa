@@ -1,10 +1,11 @@
-var cacheName = 'hello-pwa';
+var cacheName = 'tommy-pwa';
 var filesToCache = [
   '/',
   '/index.html',
   '/css/style.css',
   '/js/largefile.js',
   'js/largefile-larger.js',
+  'js/largefile-huge.js',
   '/js/main.js'
 ];
 
