@@ -6,6 +6,11 @@ var filesToCache = [
   './js/largefile.js',
   './js/largefile-larger.js',
   './js/largefile-huge.js',
+  './images/97221-unsplash.jpg',
+  './images/logo_sprite_5108d_large_2x.jpg',
+  './images/IMG_8093.jpeg',
+  './images/umbrella revolution.jpg',
+  './images/Umbrella Union Poster 5.jpg',
   './js/main.js'
 ];
 
