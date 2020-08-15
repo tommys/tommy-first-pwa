@@ -1,12 +1,12 @@
 var cacheName = 'tommy-pwa';
 var filesToCache = [
-  '/',
-  'index.html',
-  'css/style.css',
-  'js/largefile.js',
-  'js/largefile-larger.js',
-  'js/largefile-huge.js',
-  'js/main.js'
+  './',
+  './index.html',
+  './css/style.css',
+  './js/largefile.js',
+  './js/largefile-larger.js',
+  './js/largefile-huge.js',
+  './js/main.js'
 ];
 
 /* Start the service worker and cache all of the app's content */
