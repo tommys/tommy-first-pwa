@@ -2,6 +2,9 @@ var cacheName = 'tommy-pwa';
 var filesToCache = [
   './',
   './index.html',
+  './page2.html',
+  './page3.html',
+  './page4-images.html',
   './css/style.css',
   './js/largefile.js',
   './js/largefile-larger.js',
