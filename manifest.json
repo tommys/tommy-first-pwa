@@ -25,6 +25,11 @@
       "src": "images/hello-icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }, {
+      "src": "images/hello-icon-196.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
     }],
   "lang": "en-US",
   "start_url": "./index.html",
@@ -32,3 +37,4 @@
   "background_color": "#ffffff",
   "theme_color": "#ffffff"
 }
+
