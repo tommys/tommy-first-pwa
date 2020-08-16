@@ -1,10 +1,10 @@
 var cacheName = 'tommy-pwa';
 var filesToCache = [
   './index.html',
-  './page2.html?v=2',
-  './page3.html?v=2',
-  './page4.html?v=2',
-  './css/style.css?v=2',
+  './page2.html',
+  './page3.html',
+  './page4.html',
+  './css/style.css',
   './js/superlargefile.js',
   './js/largefile.js',
   './js/largefile-larger.js',
@@ -17,7 +17,6 @@ var filesToCache = [
   './js/main.js'
 ];
 
-/* Start the service worker and cache all of the app's content */
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(cacheName).then(function(cache) {
@@ -26,7 +25,6 @@ self.addEventListener('install', function(e) {
   );
 });
 
-/* Serve cached content when offline */
 self.addEventListener('fetch', function(e) {
   e.respondWith(
     caches.match(e.request).then(function(response) {
