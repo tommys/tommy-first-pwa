@@ -8,6 +8,8 @@ var filesToCache = [
   './js/superlargefile.js',
   './js/largefile.js',
   './js/largefile-larger.js',
+  './js/largefile-huge2.js',
+  './js/largefile-larger2.js',
   './js/largefile-huge.js',
   './images/97221-unsplash.jpg',
   './images/logo_sprite_5108d_large_2x.jpg',
