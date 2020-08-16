@@ -26,8 +26,8 @@
       "sizes": "512x512",
       "type": "image/png"
     }, {
-      "src": "images/hello-icon-196.png",
-      "sizes": "196x196",
+      "src": "images/maskable_icon.png",
+      "sizes": "407x407",
       "type": "image/png",
       "purpose": "any maskable"
     }],
