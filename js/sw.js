@@ -1,6 +1,6 @@
 var cacheName = 'tommy-pwa';
 var filesToCache = [
-  '../',
+  '../index.html',
   '../page2.html?v=2',
   '../page3.html?v=2',
   '../page4.html?v=2',
