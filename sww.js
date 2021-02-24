@@ -50,17 +50,17 @@ workbox.routing.registerRoute(
   })
 );
 
-workbox.routing.registerRoute(
-  ({event}) => event.request.destination === 'image',
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: IMAGE_CACHE,
-    plugins: [
-      new workbox.expiration.ExpirationPlugin({
-        maxEntries: 15,
-      }),
-    ],
-  })
-);
+// workbox.routing.registerRoute(
+//   ({event}) => event.request.destination === 'image',
+//   new workbox.strategies.StaleWhileRevalidate({
+//     cacheName: IMAGE_CACHE,
+//     plugins: [
+//       new workbox.expiration.ExpirationPlugin({
+//         maxEntries: 15,
+//       }),
+//     ],
+//   })
+// );
 
 workbox.routing.registerRoute(
   ({event}) => event.request.destination === 'font',
