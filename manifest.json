@@ -32,7 +32,7 @@
       "purpose": "any maskable"
     }],
   "lang": "en-US",
-  "start_url": "./index.html",
+  "start_url": "https://tommys.github.io/tommy-first-pwa/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff"
