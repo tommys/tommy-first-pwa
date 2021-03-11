@@ -3,7 +3,7 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js');
 
 const HTML_CACHE = "html";
-//const JS_CACHE = "javascript";
+const JS_CACHE = "javascript";
 const STYLE_CACHE = "stylesheets";
 const IMAGE_CACHE = "images";
 const FONT_CACHE = "fonts";
