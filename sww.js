@@ -26,17 +26,17 @@ workbox.routing.registerRoute(
   })
 );
 
-workbox.routing.registerRoute(
-  ({event}) => event.request.destination === 'script',
-  new workbox.strategies.StaleWhileRevalidate({
-    cacheName: JS_CACHE,
-    plugins: [
-      new workbox.expiration.ExpirationPlugin({
-        maxEntries: 15,
-      }),
-    ],
-  })
-);
+// workbox.routing.registerRoute(
+//   ({event}) => event.request.destination === 'script',
+//   new workbox.strategies.StaleWhileRevalidate({
+//     cacheName: JS_CACHE,
+//     plugins: [
+//       new workbox.expiration.ExpirationPlugin({
+//         maxEntries: 15,
+//       }),
+//     ],
+//   })
+// );
 
 workbox.routing.registerRoute(
   ({event}) => event.request.destination === 'style',
